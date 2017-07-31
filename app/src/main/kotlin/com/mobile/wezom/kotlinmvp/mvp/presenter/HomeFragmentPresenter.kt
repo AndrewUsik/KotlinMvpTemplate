@@ -1,6 +1,5 @@
 package com.mobile.wezom.kotlinmvp.mvp.presenter
 
-import android.content.Context
 import com.arellomobile.mvp.InjectViewState
 import com.mobile.wezom.kotlinmvp.api.ApiManager
 import com.mobile.wezom.kotlinmvp.mvp.view.HomeFragmentView
@@ -15,9 +14,6 @@ import javax.inject.Inject
 
 @InjectViewState
 class HomeFragmentPresenter : BasePresenter<HomeFragmentView>() {
-
-    @Inject
-    lateinit var context: Context
 
     @Inject
     lateinit var apiManager: ApiManager

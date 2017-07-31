@@ -9,7 +9,7 @@ import io.reactivex.Observable
  */
 class ApiManager(service: ApiService) {
 
-    val apiService: ApiService = service;
+    val apiService: ApiService = service
 
     fun getUser(): Observable<UserResponse> {
         return apiService.getUser()

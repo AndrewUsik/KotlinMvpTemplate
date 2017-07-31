@@ -33,7 +33,6 @@ abstract class BaseActivity : AppCompatActivity(), BaseActivityView {
     }
 
     protected fun removeFragment(fragment: BaseFragment) {
-
         val transaction = fragmentManager.beginTransaction()
         transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_CLOSE)
         transaction.remove(fragment)

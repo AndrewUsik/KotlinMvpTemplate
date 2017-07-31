@@ -5,5 +5,4 @@ import com.arellomobile.mvp.MvpView
 /**
  * Created by usik.a on 07.12.2016.
  */
-interface BaseFragmentView : MvpView {
-}
+interface BaseFragmentView : MvpView
